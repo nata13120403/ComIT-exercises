@@ -1,12 +1,13 @@
 header {
     text-align: center;
   }
+  .color-link {
+    color: aqua;
+  }
   nav a {
     color: red;
   }
   p {
     font-size: 18px;
   }
-  .color-link {
-    color: aqua;
-  }
+ 
