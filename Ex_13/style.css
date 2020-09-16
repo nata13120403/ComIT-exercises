@@ -7,7 +7,7 @@ header {
   p {
     font-size: 18px;
   }
-  nav a.active {
-    color: green;
+  nav a.open {
+    color:#00aced;
   }
  
