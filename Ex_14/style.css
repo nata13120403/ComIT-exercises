@@ -1,22 +1,22 @@
 .div_one {
     background-color: red;
-    border-right: 5px solid orange;
-    padding: 30px;
+    border-right: 6px solid orange;
+    padding: 35px;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 .second_div {
     background-color: blue;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 41px;
+    padding-bottom: 41px;
     display: inline-block;
-    border: 2px solid green;
+    border: 3px solid green;
 }
 .third_div {
-    width: 75px;
-    height: 75px;
+    width: 80px;
+    height: 80px;
     background-color: #00aced;
 }
 .fourth_div {
