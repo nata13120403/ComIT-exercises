@@ -10,11 +10,13 @@ header {
       background-color: pink;
       border: 10px solid purple;
       padding: 10px;
+      width: 100%;
   }
   .box {
       color: red;
       text-align: center;
       padding: 5px;
+      
       
   }
   .alltext {
@@ -22,6 +24,7 @@ header {
       justify-self: start;
       padding: 5px;
       background-color: yellow;
+      
   }
   .text {
       color: green;

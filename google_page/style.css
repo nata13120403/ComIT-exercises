@@ -1,0 +1,130 @@
+* {
+    font-family: sans-serif;
+}
+
+.top 
+{
+    display: flex;
+    flex-direction: row;  
+    flex: 1;
+}
+
+.top a {
+    color: black;
+    margin: 10px;    
+}
+
+.menu1 { 
+    display: flex;  
+   flex: 1;
+   align-items: flex-start;
+   padding-left: 10px;
+   padding-right: 10px;
+  
+}
+
+.menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 270px;
+}
+.logo {
+    width: 150;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 20px;
+}
+ .search-container img {
+    width: 10px;
+    height: auto;
+}
+.search-container input {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 250px;
+    border: 0;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button button {
+    margin-right: 5px;
+    background: #f2f2f2;
+    color: #333;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 16px;
+    margin-top: 10px;}
+
+main p {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    flex-flow: 1; 
+    flex-direction: column;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: gray;
+    align-content: flex-end;
+
+}
+.Canada {
+    display: flex;
+    flex-flow: 1;
+    border-bottom: none;
+    padding: 10px;
+}
+.foot {
+    display: flex;
+    flex-flow: 1;
+    justify-content: space-between;
+}
+footer div {
+    display: flex;
+    border: gray solid 1px;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-flow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.foot2 {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    flex-flow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.foot1 p {
+ display: flex;
+ margin-right: 10px;   
+}
+
+.foot2 p {
+    display: flex;
+    margin-right: 10px;
+}
