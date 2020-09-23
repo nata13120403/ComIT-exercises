@@ -1,6 +1,6 @@
 'use strict';
 let age;
-age = 25;
+age = 26;
 let firstName;
 firstName = 'Natali';
 let status;
