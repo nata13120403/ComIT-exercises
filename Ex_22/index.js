@@ -9,5 +9,5 @@ if (firstNum > secondNum){
 else if (firstNum < secondNum) {
       alert ('The first number is less then secong number!');
 }
-else {alert('The numbers are the same!')}
+else {alert('The numbers are the same!')};
 
