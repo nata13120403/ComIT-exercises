@@ -1,0 +1,25 @@
+'use strict';
+let age;
+age = 26;
+let firstName;
+firstName = 'Natali';
+let status;
+status = false;
+let score = null;
+let winNum;
+console.log ('Name: ', firstName);
+console.log ('Age:',  age);
+console.log ('Course completed:', status);
+console.log ('Final score:', score);
+console.log (winNum);
+
+age = String(age);
+console.log ('String Age: ', age);
+firstName = Number(firstName);
+console.log ('Number :', firstName);
+status = Number(status);
+console.log ('Number:',status);
+score = Boolean(score);
+console.log('Boolean: ', score);
+winNum = String(winNum);
+console.log('String: ', winNum);
