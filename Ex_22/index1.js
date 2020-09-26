@@ -8,5 +8,5 @@ else if (curHour < 8 || curHour == 18 ) {
 }
 else (curHour > 8 || curHour == 8 && curHour < 18) ;
 {
-    alert ('We are open!');
+    alert ('We are open!!!');
 }
