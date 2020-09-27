@@ -1,0 +1,76 @@
+html {
+    display: flex;
+    background-color:rgb(226, 226, 248);
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    margin: 20px;
+    background-color:lavender ;
+    background-image: url("999.jpg");
+   
+}
+div img{
+    margin: 10px;
+}
+ul {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-between;
+    flex: 13;
+    width: 400px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    
+}
+.button_header {
+    color:white;    
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(171, 151, 245);
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border-color: black;
+    transition: all 0.4s ease 0s; 
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.button_header:hover {
+    background: rgb(110, 189, 241);
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 2;
+}
+main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.menu {
+    display: flex;
+    background-color: rgb(231, 210, 248);
+    width: 200px;
+   }
+
+
+div marquee {
+    color: magenta;
+}
+
+
+
