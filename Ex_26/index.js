@@ -8,13 +8,13 @@ function evenNum (num){
 }
 
 function showUser () {
-let name = 'Natali';
-let age = 30;
-let phone = 4312051231;
-let street = 'Clearwater';
-let postalCod = 'R5GS7';
-let married = true;
-console.log ('User:', name, 'Age:', age, 'Phone:', phone, 'Street:', street, 'Postal code:', postalCod, 'Married:',married);
+    let name = 'Natali';
+    let age = 30;
+    let phone = 4312051231;
+    let street = 'Clearwater';
+    let postalCod = 'R5GS7';
+    let married = true;
+    console.log ('User:', name, 'Age:', age, 'Phone:', phone, 'Street:', street, 'Postal code:', postalCod, 'Married:',married);
 }
 
 let evenNumb = function (){
@@ -56,14 +56,10 @@ let showName = function(){
     console.log ('==========')
 }
 
-evenNum ();
+evenNum  ();
 showUser ();
-evenNumb ();
-evenNumb ();
-evenNumb ();
-evenNumb ();
-evenNumb ();
+for (let q = 0; q < 5; q ++) {evenNumb ();}
 evenNumb2();
 fibonacci();
-showName();
-showName();
+for (let q = 0; q < 2; q ++) {showName();}
+
