@@ -10,7 +10,7 @@ function evenNum (num){
 function showUser () {
     let name = 'Natali';
     let age = 30;
-    let phone = 4312051231;
+    let phone = 43120512317868;
     let street = 'Clearwater';
     let postalCod = 'R5GS7';
     let married = true;
