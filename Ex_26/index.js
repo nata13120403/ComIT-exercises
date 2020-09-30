@@ -25,7 +25,6 @@ let evenNumb = function (){
     }
 }
 
-
 let evenNumb2 = function (){
     let nm = Number(prompt ('Enter a number', 100));{
         if( nm % 2 == 0){
