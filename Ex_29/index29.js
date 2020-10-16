@@ -3,9 +3,6 @@
 let siblings = ['Sasha', 'Margo', 'Lisa'];
 let parents = ['Valya', 'Leon'];
 
-console.log(siblings);
-console.log(parents);
-
 let arr = (siblings.concat(parents));
 console.log(arr);
 
